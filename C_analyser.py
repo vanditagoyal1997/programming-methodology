@@ -68,7 +68,7 @@ def checkVar(s,var):
 
 		
 				
-"""def isFunction(s,function):
+def isFunction(s,function):
 	for i in range (len(function)):
 		if function[i] in s:
 			if "(" in s:
@@ -77,7 +77,7 @@ def checkVar(s,var):
 				else:
 					return False
 			else:
-				return False"""
+				return False
 		
 		
 def isVarOrKey(s,var,keyword):
@@ -98,7 +98,7 @@ def isVarOrKey(s,var,keyword):
 		
 		
 
-"""def varToType(s,var):
+def varToType(s,var):
 	if "=" in s:
 		g=s.split("=")
 		if g[0] in var['int'] or g[0] in var['long']:
@@ -123,7 +123,7 @@ def isVarOrKey(s,var,keyword):
 			return False
 	
 	else:
-		return True"""
+		return True
 def isLoop(s):
 		if "for" in s:
 			if "(" in s:
